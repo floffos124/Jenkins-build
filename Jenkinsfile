@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'bletchley-agent' } // Gebruik het label van de Node
+    agent { label 'bletchley' } // Gebruik het label van de Node
 
     stages {
         stage('Checkout and Build') {
